@@ -1,23 +1,13 @@
-import GetRandomUser from './components/getRandomUser'
-
-GetRandomUser()
+import React from 'react'
+import './App.css'
+import Header from './components/Header'
+import TableHeader from './components/TableHeader'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <TableHeader />
     </div>
   );
 }
