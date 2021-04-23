@@ -4,20 +4,16 @@ function TableHeader() {
   return (
     <div>
       <table id="employees">
+      <tbody>
           <tr>
-            <th>Profile</th>
-            <th>Profile</th>
-            <th>Profile</th>
-            <th>Profile</th>
-            <th>Profile</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Gender</th>
+            <th>Phone</th>
+            <th>DOB</th>
+            <th>Nat</th>
           </tr>
-          <tr>
-            <td>data</td>
-            <td>data</td>
-            <td>data</td>
-            <td>data</td>
-            <td>data</td>
-          </tr>
+        </tbody>
       </table>
     </div>
   );
