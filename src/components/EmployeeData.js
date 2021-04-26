@@ -1,7 +1,7 @@
 import React from 'react'
 
 const EmployeeData = (props) => {
-
+  
 
   return (
     <table
@@ -11,19 +11,11 @@ const EmployeeData = (props) => {
     >
       <thead>
         <tr>
-          <th scope="col" className="th-sm"></th>
-          <th scope="col" className="th-sm">
-            First Name
-          </th>
-          <th scope="col" className="th-sm">
-            Last Name <i className="fas fa-sort icon"></i>
-          </th>
-          <th scope="col" className="th-sm">
-            Email
-          </th>
-          <th scope="col" className="th-sm">
-            Phone Number
-          </th>
+          <th>Profile Photo</th>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th >Email</th>
+          <th>Phone Number</th>
         </tr>
       </thead>
       <tbody>
@@ -32,7 +24,7 @@ const EmployeeData = (props) => {
             return (
               <tr>
                 <td>
-                  <img src={employee.picture.large} alt="headshots" />
+                  <img src={employee.picture.large} alt="Profile Picture" />
                 </td>
                 <td>{employee.name.first}</td>
                 <td>{employee.name.last}</td>
