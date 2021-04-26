@@ -1,15 +1,9 @@
-import $ from 'jquery'
+import axios from 'axios';
 
-export default { 
-  
-  search: $.ajax({
-  url: "https://randomuser.me/api/",
-  dataType: "json",
+const BASEURL = 'https://randomuser.me/api/?results=20&nat=us';
 
-  success: function (data) {
-    // console.log(data.results[0].cell);
-      console.log(data)
+export default {
+  employees: function (query) {
+    return axios.get(BASEURL + query);
   }
-})
-
-}
+};
