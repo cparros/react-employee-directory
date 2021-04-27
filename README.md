@@ -1,4 +1,11 @@
-# Getting Started with Create React App
+# Employee Directory
+This application allows the user to view a list of employees. They can be filtered by last name or by gender (Display only males right now Females futurre developement).
+
+![Gif of Application](./public/EmployeeDirectory.gif)
+
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
