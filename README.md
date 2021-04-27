@@ -3,7 +3,7 @@ This simple application is a practice in using props and components that allows 
 
 [Link to deployed application](https://cparros.github.io/react-employee-directory/)
 
-![Gif of Application](./EmployeeDirectory.gif)
+![Gif of Application](./public/EmployeeDirectory.gif)
 
 
 ## Future developement
