@@ -7,7 +7,7 @@ This simple application is a practice in using props and components that allows 
 
 
 ## Future developement
-Convert Buttons to Radio button to display males/females.
+Convert Buttons to Radio button to display males/females. Search functionality.
 
 ## Questions
 celparros@gmail.com
