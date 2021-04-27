@@ -1,6 +1,6 @@
 import React from 'react'
 
-const EmployeeData = (props) => {
+const EmployeeData = ({props, employees}) => {
   
 
   return (
@@ -19,8 +19,8 @@ const EmployeeData = (props) => {
         </tr>
       </thead>
       <tbody>
-        {props.employees.length > 0 ? (
-          props.employees.map((employee) => {
+        {employees.length > 0 ? (
+          employees.map((employee) => {
             return (
               <tr>
                 <td>
