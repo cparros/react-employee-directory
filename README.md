@@ -3,7 +3,11 @@ This application allows the user to view a list of employees. They can be filter
 
 ![Gif of Application](./public/EmployeeDirectory.gif)
 
+## Future developement
+Convert Buttons to Radio button to display males/females.
 
+## Questions
+celparros@gmail.com
 
 ## Getting Started with Create React App
 
